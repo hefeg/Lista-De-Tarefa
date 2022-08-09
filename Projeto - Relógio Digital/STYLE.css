@@ -1,0 +1,148 @@
+body{
+    background-color:white;
+    color: antiquewhite;
+    background-size: cover;
+}
+
+#clock{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 120px;
+    margin-left: 20px;
+    
+}
+
+#week{
+    font-family: 'Rajdhani', sans-serif;
+    margin-left: 40px;
+    font-size: 30px;
+
+}
+
+#data{
+    font-family: 'Rajdhani', sans-serif;
+    margin-left: 40px;
+    font-size: 30px;
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Rajdhani', sans-serif;
+    
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+  }
+
+  
+
+  h1 {
+    text-align: center;
+    font-size: 3rem;
+  }
+  
+  header {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    width: 90%;
+    /* border:1px solid red;*/
+    margin: auto auto;
+  }
+  
+  input {
+    height: 50px;
+    font-size: 2rem;
+    width: 50%;
+    padding-left: 10%;
+    margin-left: 200px;
+  }
+  
+  button.add {
+    width: 20%;
+    cursor: pointer;
+    background: green;
+    color: antiquewhite;
+    font-weight: bold;
+    border: none;
+    height: 50px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  main {
+    display: flex;
+    flex-flow: row wrap;
+    width: 50%;
+    margin: auto auto;
+    /* border:1px solid blue;*/
+    padding-top: 40px;
+  }
+  
+  .item {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background: antiquewhite;
+    height: 50px;
+    width: 100%;
+   
+    margin-bottom: 2%;
+    cursor: pointer;
+    color: black;
+  }
+  
+  .item.clicado {
+    background: #d4f6d9;
+  }
+  
+  .item.clicado .item-nome {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
+  .item-icone {
+    flex: 20%;
+    /* border:1px solid orangered;  */
+    text-align: center;
+    font-size: 2rem;
+  }
+  
+  .item-nome {
+    flex: 55%;
+    /* border:1px solid deeppink;  */
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .item-botao {
+    flex: 25%;
+    /* border:1px solid green;    */
+  }
+  
+  .delete {
+    background: red;
+    color: antiquewhite;
+    border: none;
+    padding: 10px;
+    height: 50px;
+    width: 101%;
+    cursor: pointer;
+  }
+  
+  .mdi-check-circle {
+    color: green;
+  }
+  
